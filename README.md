@@ -19,5 +19,5 @@ Handles scanned/image-only PDFs
 
 Extracts and outputs plain text
 
-Optional: image preprocessing for improved OCR accuracy (e.g., grayscale, thresholding)
+Image preprocessing for improved OCR accuracy (grayscale, thresholding)
 
