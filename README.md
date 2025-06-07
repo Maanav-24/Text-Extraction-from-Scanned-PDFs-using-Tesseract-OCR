@@ -4,20 +4,20 @@ This tool converts PDF files into images and applies Tesseract OCR to detect and
 The extracted text is cleaned, structured, and made ready for downstream tasks such as text analysis, classification, or storage.
 
 ## ⚙️ Tech Stack
-Tesseract OCR – Core engine for optical character recognition
+1. Tesseract OCR – Core engine for optical character recognition
 
-PDF to Image Conversion – Converts PDF pages to high-resolution images using libraries like pdf2image or PyMuPDF
+2. PDF to Image Conversion – Converts PDF pages to high-resolution images using libraries like pdf2image or PyMuPDF
 
-OpenCV / PIL – For image preprocessing (optional enhancement)
+3. OpenCV / PIL – For image preprocessing (optional enhancement)
 
-Python – Core scripting language for the pipeline
+4. Python – Core scripting language for the pipeline
 
 ## 🔧 Features
-Supports multi-page PDF processing
+1. Supports multi-page PDF processing
 
-Handles scanned/image-only PDFs
+2. Handles scanned/image-only PDFs
 
-Extracts and outputs plain text
+3. Extracts and outputs plain text
 
-Image preprocessing for improved OCR accuracy (grayscale, thresholding)
+4. Image preprocessing for improved OCR accuracy (grayscale, thresholding)
 
